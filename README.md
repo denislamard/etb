@@ -38,7 +38,7 @@ npm install
 ```
 
 ## Start the local blockchain
-Before using the projet, it is necessary to start the blockchain.
+Before using the projet, it is necessary to start the blockchain. a new folder named **ganache-db** will be created.
 ```bash
 cd etb
 ./start-blockchain
@@ -75,3 +75,5 @@ The 4 given accounts are used for only testing environment **(local blockchain)*
 
 4. 0xE8fDa87be1Adbd3b3253e868534A38eA17eF2C40 (5 ETH)
 	> 0xa955ca28fb26a3ca2b7fd9dcc7eb63107825efce5092147a803ca3e5b3c1503b
+	
+
