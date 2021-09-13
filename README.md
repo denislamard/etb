@@ -2,6 +2,8 @@
 
 This project aims to demonstrate the power of blockchain in a market context. The ETB token *(**E**nergy **T**oken on **B**lockchain)* based on **ERC20** is used as a currency and as a market manager.
 
+More information are given into the pdf file **document.pdf**
+
 ## Files and Folders
 
 | Name          | Type           | Comments  |
@@ -51,6 +53,9 @@ cd etb
 
 ## Using the cli applications
 
+To execute these 4 cli applications, node mus be used.
+> ex.: **node admin.js**
+
 1. Enable roles with **admin.js**
 2. Buy some tokens ETB for consumer accounts with **account-manager.js**
 3. Sell amount of energy with **producer.js**
@@ -70,8 +75,3 @@ The 4 given accounts are used for only testing environment **(local blockchain)*
 
 4. 0xE8fDa87be1Adbd3b3253e868534A38eA17eF2C40 (5 ETH)
 	> 0xa955ca28fb26a3ca2b7fd9dcc7eb63107825efce5092147a803ca3e5b3c1503b
-	
-
-
-
-
