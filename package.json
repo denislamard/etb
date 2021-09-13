@@ -1,0 +1,18 @@
+{
+  "name": "01_energy",
+  "version": "1.0.0",
+  "description": "Smart contract for using energy business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Denis LAMARD",
+  "license": "MIT",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.1",
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0"
+  }
+}

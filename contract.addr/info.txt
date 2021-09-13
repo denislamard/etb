@@ -1,0 +1,1 @@
+these 2 contract addresses are created by the process of migration. The cli folder uses them.

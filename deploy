@@ -1,0 +1,5 @@
+#!/bin/bash
+
+truffle migrate -f 2 --skip-dry-run --network local
+
+exit 0
