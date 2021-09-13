@@ -1,7 +1,9 @@
 # Energy Token on Blockchain
+
 This project aims to demonstrate the power of blockchain in a market context. The ETB token *(**E**nergy **T**oken on **B**lockchain)* based on **ERC20** is used as a currency and as a market manager.
 
 ## Files and Folders
+
 | Name          | Type           | Comments  |
 |:-------------:|:--------------:| --------|
 |cli/|folder|client application written in nodejs|
@@ -20,7 +22,24 @@ Firtly , it is mandatory to clone the git repo.
 ```bash
 git clone git@github.com:denislamard/etb.git
 ```
-
 ## Setup the environment
+
+
+
+
+## Available Accounts
+
+1. 0x84bb9Eb7d0118af72617766d2d75acf8259A045c
+	> 0xd5187245244eb865d569e1993cea090a9761ce494580fc7cc422486344d77304
+
+2. 0x83c31BE73AcF0E4189Dc972Bb4A1F872f853D5cB (5 ETH)
+	> 0xdd2be06b29734df399c0e7daa0fd15e34bc64e721ddd9ae7412b861a229eb773
+
+3. 0x037BFcA5aDa42FEEe729D7Af7c9E2d9aC0625f64 (5 ETH)
+	> 0x0598b11da9a97d81e2be6e5670b7f3bfb0cece5033b8f460af0807491f53c96d
+
+4. 0xE8fDa87be1Adbd3b3253e868534A38eA17eF2C40 (5 ETH)
+	> 0xa955ca28fb26a3ca2b7fd9dcc7eb63107825efce5092147a803ca3e5b3c1503b
+
 
 
