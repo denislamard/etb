@@ -23,11 +23,34 @@ Firtly , it is mandatory to clone the git repo.
 git clone git@github.com:denislamard/etb.git
 ```
 ## Setup the environment
+Install all node modules on the development environment
+```bash
+cd etb
+npm install
+```
 
+Install all node modules on the cli applications
+```bash
+cd etb/cli
+npm install
+```
 
+## Start the local blockchain
+Before using the projet, it is necessary to start the blockchain.
+```bash
+cd etb
+./start-blockchain
+```
+## Deploy the contracts
+The contracts must be deployed on the local blockchain before using the cli applications.
+```bash
+cd etb
+./deploy
+```
 
 
 ## Available Accounts
+The 4 given accounts are used for only testing environment **(local blockchain)**. 
 
 1. 0x84bb9Eb7d0118af72617766d2d75acf8259A045c
 	> 0xd5187245244eb865d569e1993cea090a9761ce494580fc7cc422486344d77304
@@ -40,6 +63,3 @@ git clone git@github.com:denislamard/etb.git
 
 4. 0xE8fDa87be1Adbd3b3253e868534A38eA17eF2C40 (5 ETH)
 	> 0xa955ca28fb26a3ca2b7fd9dcc7eb63107825efce5092147a803ca3e5b3c1503b
-
-
-
