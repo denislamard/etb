@@ -1,6 +1,6 @@
 # Energy Token on Blockchain
 
-This project aims to demonstrate the power of blockchain in a market context. The ETB token *(**E**nergy **T**oken on **B**lockchain)* based on **ERC20** is used as a currency and as a market manager.
+This project aims to demonstrate the power of blockchain in a market context. The **ETB** token *(**E**nergy **T**oken on **B**lockchain)* based on Ethereum standard **ERC20** is used as a currency and as a market manager.
 
 More information are given into the pdf file **document.pdf**
 
@@ -20,40 +20,39 @@ More information are given into the pdf file **document.pdf**
 |truffle-config.js|file|parameters for truffle|
 
 ## Clone the repository
-Firtly , it is mandatory to clone the git repo.
+Firstly , it is mandatory to clone the git repo.
 ```bash
 git clone git@github.com:denislamard/etb.git
 ```
 ## Setup the environment
-Install all node modules on the development environment
+Install all node modules on the development environment.
 ```bash
 cd etb
 npm install
 ```
 
-Install all node modules on the cli applications
+Install all node modules on the cli applications.
 ```bash
 cd etb/cli
 npm install
 ```
 
 ## Start the local blockchain
-Before using the projet, it is necessary to start the blockchain. a new folder named **ganache-db** will be created.
+Before using the project, it is necessary to start the blockchain. a new folder named **ganache-db** will be created. This folder stores data from the blockchain.
 ```bash
 cd etb
 ./start-blockchain
 ```
 
 ## Deploy the contracts
-The contracts must be deployed on the local blockchain before using the cli applications. The new addresses of contracts are stored in **contract.addr**.
+The contracts must be deployed on the local blockchain before using the cli applications. The new addresses of contracts are stored in **contract.addr**. Each file contains the contract address.
 ```bash
 cd etb
 ./deploy
 ```
 
 ## Using the cli applications
-
-To execute these 4 cli applications, node mus be used.
+To execute these 4 cli applications, nodejs must be used.
 > ex.: **node admin.js**
 
 1. Enable roles with **admin.js**
@@ -76,4 +75,3 @@ The 4 given accounts are used for only testing environment **(local blockchain)*
 4. 0xE8fDa87be1Adbd3b3253e868534A38eA17eF2C40 (5 ETH)
 	> 0xa955ca28fb26a3ca2b7fd9dcc7eb63107825efce5092147a803ca3e5b3c1503b
 	
-
