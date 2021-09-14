@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="energy-token-on-blockchain">Energy Token on Blockchain</h1>
+<p>This project aims to demonstrate the power of blockchain in a market context. The <strong>ETB</strong> token <em>(<strong>E</strong>nergy <strong>T</strong>oken on <strong>B</strong>lockchain)</em> based on Ethereum standard <strong>ERC20</strong> is used as a currency and as a market manager.</p>
+<p>More information are given into the below pdf file:<br>
+<a href="https://github.com/denislamard/etb/blob/main/Denis_LAMARD_EnergyTokenOnBlockchain.pdf"></a></p><p align="center"><img src="https://raw.githubusercontent.com/denislamard/etb/main/img/pdf.png"></p>
+<h2 id="files-and-folders">Files and Folders</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Name</th>
+<th align="center">Type</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">cli/</td>
+<td align="center">folder</td>
+<td>client application written in nodejs</td>
+</tr>
+<tr>
+<td align="center">contract.addr/</td>
+<td align="center">folder</td>
+<td>this contains the addresses of contracts</td>
+</tr>
+<tr>
+<td align="center">contracts/</td>
+<td align="center">folder</td>
+<td>this contains all smart contracts written in solididy</td>
+</tr>
+<tr>
+<td align="center">deploy</td>
+<td align="center">file</td>
+<td>script bash used for the deployment of the smart contracts</td>
+</tr>
+<tr>
+<td align="center">documents/</td>
+<td align="center">folder</td>
+<td>all documents</td>
+</tr>
+<tr>
+<td align="center">local-env</td>
+<td align="center">file</td>
+<td>environment variables for local blockchain</td>
+</tr>
+<tr>
+<td align="center">migrations/</td>
+<td align="center">folder</td>
+<td>used for the truffle deployment</td>
+</tr>
+<tr>
+<td align="center">package.json</td>
+<td align="center">file</td>
+<td>list of all necessary modules nodejs</td>
+</tr>
+<tr>
+<td align="center">start-blockchain</td>
+<td align="center">file</td>
+<td>bash script used to start the local blockchain</td>
+</tr>
+<tr>
+<td align="center">truffle-config.js</td>
+<td align="center">file</td>
+<td>parameters for truffle</td>
+</tr>
+</tbody>
+</table><h2 id="clone-the-repository">Clone the repository</h2>
+<p>Firstly , it is mandatory to clone the git repo.</p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">git</span> clone git@github.com:denislamard/etb.git
+</code></pre>
+<h2 id="setup-the-environment">Setup the environment</h2>
+<p>Install all node modules on the development environment.</p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">cd</span> etb
+<span class="token function">npm</span> <span class="token function">install</span>
+</code></pre>
+<p>Install all node modules on the cli applications.</p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">cd</span> etb/cli
+<span class="token function">npm</span> <span class="token function">install</span>
+</code></pre>
+<h2 id="start-the-local-blockchain">Start the local blockchain</h2>
+<p>Before using the project, it is necessary to start the blockchain. a new folder named <strong>ganache-db</strong> will be created. This folder stores data from the blockchain.</p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">cd</span> etb
+./start-blockchain
+</code></pre>
+<h2 id="deploy-the-contracts">Deploy the contracts</h2>
+<p>The contracts must be deployed on the local blockchain before using the cli applications. The new addresses of contracts are stored in <strong>contract.addr</strong>. Each file contains the contract address.</p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">cd</span> etb
+./deploy
+</code></pre>
+<h2 id="using-the-cli-applications">Using the cli applications</h2>
+<p>To execute these 4 cli applications, nodejs must be used.</p>
+<blockquote>
+<p>ex.: <strong>node admin.js</strong></p>
+</blockquote>
+<ol>
+<li>
+<p>Enable roles with <strong>admin.js</strong><br>
+<img src="https://raw.githubusercontent.com/denislamard/etb/main/img/admin.png" alt="alt admin"></p>
+</li>
+<li>
+<p>Buy some tokens ETB for consumer accounts with <strong>account-manager.js</strong><br>
+<img src="https://raw.githubusercontent.com/denislamard/etb/main/img/account-manager.png" alt="alt admin"></p>
+</li>
+<li>
+<p>Sell amount of energy with <strong>producer.js</strong><br>
+<img src="https://raw.githubusercontent.com/denislamard/etb/main/img/producer.png" alt="alt admin"></p>
+</li>
+<li>
+<p>buy amount of energy <strong>consumer.js</strong><br>
+<img src="https://raw.githubusercontent.com/denislamard/etb/main/img/consumer.png" alt="alt admin"></p>
+</li>
+</ol>
+<h2 id="available-accounts">Available Accounts</h2>
+<p>The 4 given accounts are used for only testing environment <strong>(local blockchain)</strong>.  These accounts are unknown on all <strong>public blockchain</strong>.</p>
+<ol>
+<li>
+<p>0x84bb9Eb7d0118af72617766d2d75acf8259A045c</p>
+<blockquote>
+<p>0xd5187245244eb865d569e1993cea090a9761ce494580fc7cc422486344d77304</p>
+</blockquote>
+</li>
+<li>
+<p>0x83c31BE73AcF0E4189Dc972Bb4A1F872f853D5cB (5 ETH)</p>
+<blockquote>
+<p>0xdd2be06b29734df399c0e7daa0fd15e34bc64e721ddd9ae7412b861a229eb773</p>
+</blockquote>
+</li>
+<li>
+<p>0x037BFcA5aDa42FEEe729D7Af7c9E2d9aC0625f64 (5 ETH)</p>
+<blockquote>
+<p>0x0598b11da9a97d81e2be6e5670b7f3bfb0cece5033b8f460af0807491f53c96d</p>
+</blockquote>
+</li>
+<li>
+<p>0xE8fDa87be1Adbd3b3253e868534A38eA17eF2C40 (5 ETH)</p>
+<blockquote>
+<p>0xa955ca28fb26a3ca2b7fd9dcc7eb63107825efce5092147a803ca3e5b3c1503b</p>
+</blockquote>
+</li>
+</ol>
+</div>
+</body>
+
+</html>
