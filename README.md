@@ -3,13 +3,7 @@
 This project aims to demonstrate the power of blockchain in a market context. The **ETB** token *(**E**nergy **T**oken on **B**lockchain)* based on Ethereum standard **ERC20** is used as a currency and as a market manager.
 
 More information are given into the below pdf file:
- 
-[![document ><](https://github.com/denislamard/etb/blob/main/img/pdf.png)](https://github.com/denislamard/etb/blob/main/Denis_LAMARD_EnergyTokenOnBlockchain.pdf)
-
-## aaaaaaaaaaaaaaaaaaaaaaaaaaa
-<p align="center">
-  <img width="600" height="200" src="https://www.python.org/python-.png">
-</p>
+[<p align="center"><img src="https://github.com/denislamard/etb/blob/main/img/pdf.png"></p>](https://github.com/denislamard/etb/blob/main/Denis_LAMARD_EnergyTokenOnBlockchain.pdf)
 
 ## Files and Folders
 
