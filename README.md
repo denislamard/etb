@@ -56,6 +56,8 @@ To execute these 4 cli applications, nodejs must be used.
 > ex.: **node admin.js**
 
 1. Enable roles with **admin.js**
+![alt admin](https://github.com/denislamard/etb/blob/main/img/admin.png)
+
 2. Buy some tokens ETB for consumer accounts with **account-manager.js**
 3. Sell amount of energy with **producer.js**
 4. buy amount of energy **consumer.js**
