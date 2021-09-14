@@ -3,7 +3,7 @@
 This project aims to demonstrate the power of blockchain in a market context. The **ETB** token *(**E**nergy **T**oken on **B**lockchain)* based on Ethereum standard **ERC20** is used as a currency and as a market manager.
 
 More information are given into the below pdf file:
-[<p align="center"><img src="https://github.com/denislamard/etb/blob/main/img/pdf.png"></p>](https://github.com/denislamard/etb/blob/main/Denis_LAMARD_EnergyTokenOnBlockchain.pdf)
+[<p align="center"><img src="https://raw.githubusercontent.com/denislamard/etb/main/img/pdf.png"></p>](https://github.com/denislamard/etb/blob/main/Denis_LAMARD_EnergyTokenOnBlockchain.pdf)
 
 ## Files and Folders
 
@@ -57,16 +57,16 @@ To execute these 4 cli applications, nodejs must be used.
 > ex.: **node admin.js**
 
 1. Enable roles with **admin.js**
-![alt admin](https://github.com/denislamard/etb/blob/main/img/admin.png)
+![alt admin](https://raw.githubusercontent.com/denislamard/etb/main/img/admin.png)
 
 2. Buy some tokens ETB for consumer accounts with **account-manager.js**
-![alt admin](https://github.com/denislamard/etb/blob/main/img/account-manager.png)
+![alt admin](https://raw.githubusercontent.com/denislamard/etb/main/img/account-manager.png)
 
 3. Sell amount of energy with **producer.js**
-![alt admin](https://github.com/denislamard/etb/blob/main/img/producer.png)
+![alt admin](https://raw.githubusercontent.com/denislamard/etb/main/img/producer.png)
 
 4. buy amount of energy **consumer.js**
-![alt admin](https://github.com/denislamard/etb/blob/main/img/consumer.png)
+![alt admin](https://raw.githubusercontent.com/denislamard/etb/main/img/consumer.png)
 
 ## Available Accounts
 The 4 given accounts are used for only testing environment **(local blockchain)**.  These accounts are unknown on all **public blockchain**.
