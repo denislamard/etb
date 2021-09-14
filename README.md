@@ -59,8 +59,13 @@ To execute these 4 cli applications, nodejs must be used.
 ![alt admin](https://github.com/denislamard/etb/blob/main/img/admin.png)
 
 2. Buy some tokens ETB for consumer accounts with **account-manager.js**
+![alt admin](https://github.com/denislamard/etb/blob/main/img/account-manager.png)
+
 3. Sell amount of energy with **producer.js**
+![alt admin](https://github.com/denislamard/etb/blob/main/img/producer.png)
+
 4. buy amount of energy **consumer.js**
+![alt admin](https://github.com/denislamard/etb/blob/main/img/consumer.png)
 
 ## Available Accounts
 The 4 given accounts are used for only testing environment **(local blockchain)**.  These accounts are unknown on all **public blockchain**.
